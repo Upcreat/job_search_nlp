@@ -16,12 +16,7 @@ from assets.fig_layout import my_figlayout, my_colors
 ############################################################################################
 # Upload data
 Job_Info = pd.read_csv('data/job_info_dash.csv', sep='|')
-#Job_Info = Job_Info.loc[Job_Info['Main Location'] == 'Zurich', :] # Filter by one location
-#Job_Info = Job_Info.iloc[:75, :]
-#print("Job Info: {} records loaded".format(len(Job_Info)))
-
 df_embeddings = pd.read_csv('data/sentences_embeddings_dash.csv', sep='|')
-#print("Sentence Embeddings: {} records loaded".format(len(df_embeddings)))
 
 ############################################################################################
 # Page layout
