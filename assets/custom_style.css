@@ -1,0 +1,193 @@
+/* === ANY ELEMENT OVERRIDE ===*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* === FULL PAGE ===*/
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 18px;
+    background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
+    color: #e9e9e9;
+}
+
+a {
+    color: #e9e9e9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e9e9e9;
+    text-decoration: underline;
+}
+
+/* === SEARCH PART ===*/
+.searchnav {
+    background-image: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%); /*linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);*/
+    font-size: 15px;
+    color: #192841;
+    height: 100vh;
+}
+
+.search-nav-col {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.page-content {
+    margin-left: 33.3%; /* This works only if the search-nav-col is a 4/12 col, otherwise adapt the percentage */
+    overflow: auto;
+}
+
+.fa-brands {
+    color : #192841 !important;
+  }
+
+.Select-control {
+    font-size: 10px;
+}
+
+.Select-menu-outer {
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.search-area {
+    font-size: 14px;
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 5px 0px 5px;
+    border: None;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.par {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.my-button {
+    margin-top: 10px;
+    padding: 3px 10px 3px 10px;
+    color: #e9e9e9;
+    background-color : #192841;
+    border-radius: 5px;
+}
+
+.my-button:hover {
+    box-shadow: 0 0 8px #192841;
+}
+
+.my-button:active {
+    box-shadow: 0 0 15px #7b7f85;
+  }
+
+/* === NAV ===*/
+.nav-row {
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.dropdown-menu {
+    font-size: 12px;
+}
+
+/* === FOOTER ===*/
+.hr-footer {
+    height: 5px;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+/* === SEARCH FINDINGS ===*/
+.search-res-title {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.dash-graph.my-graph {
+    background-color: rgba(0,0,0,30.0%);
+    border-radius: 11px;
+}
+
+.alert-style {
+    font-size: 15px;
+    padding: 3px 10px 3px 10px;
+    text-align: center;
+}
+
+.dash-default-spinner > div {
+    background-image: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%)
+}
+
+.card {
+    border-color: rgb(75, 41, 145);
+    margin: 10px 0px 5px 2px;
+    background-color: rgba(0,0,0,30%); /* Remove background from the underlying card div */
+    height: 250px;
+    overflow: auto;
+}
+
+.card-header {
+    text-align: right;
+    font-size: 15px;
+    background-color: rgba(0,0,0,50%);
+    padding: 3px 10px 3px 10px;
+}
+
+.card-body {
+    padding: 10px 10px 10px 10px;
+}
+
+.h5, h5 {
+    margin: 1px 0px 1px 0px;
+    font-size: 20px;
+}
+
+.h6, h6 {
+    margin: 1px 0px 1px 0px;
+    text-align: right;
+    font-size: 11px;
+}
+
+.card-body-par {
+    margin: 7px 0px 1px 0px;
+    font-size: 13px;
+}
+
+/* === INFO PAGE ===*/
+.h3, h3 {
+    margin: 1px 0px 1px 0px;
+    font-size: 17px;
+}
+
+.h4, h4 {
+    margin: 20px 3px 1px 0px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.info-text {
+    font-size: 14px;
+    margin: 8px 1px 1px 1px;
+    font-weight:100;
+}
+
+.info-text-b {
+    font-size: 14px;
+    font-weight: 500;
+}
