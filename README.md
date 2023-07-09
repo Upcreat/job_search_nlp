@@ -5,4 +5,5 @@ Presenting a web app with semantic search functionalities based on pre-trained s
 
 The full app was presented in this article [published on Medium]().
 
-![App in Use 01](https://github.com/gabri-al/job_search_nlp/assets/57110246/abf3c80d-60ac-4c52-86b8-44c6bd2da7a2)
+
+![App in Use 01](https://github.com/gabri-al/job_search_nlp/assets/57110246/905d0186-bde3-49f4-b329-fa75d2044111)
