@@ -1,2 +1,1 @@
-# job_search_nlp
-Proposing a web app with semantic search functionalities based on pre-trained sBERT, and an interface built with Plotly Dash
+Presenting a web app with semantic search functionalities based on pre-trained sBERT, with an interface built using Plotly Dash
