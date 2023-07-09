@@ -11,7 +11,7 @@ def embed_api(sentences_):
     # Define Huggingface API parameters
     model_name = 'sentence-transformers/all-mpnet-base-v2'
     api_url = f"https://api-inference.huggingface.co/pipeline/feature-extraction/{model_name}"
-    hf_token = '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'
+    hf_token = 'hf_PLACEYOURTOKENHERE'
     headers = {"Authorization": f"Bearer {hf_token}"}
     input_json = {"inputs": sentences_, "options":{"wait_for_model":True}}
     # Call to API
