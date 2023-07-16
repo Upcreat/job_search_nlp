@@ -3,7 +3,7 @@
 Presenting a web app with semantic search functionalities based on pre-trained sBERT, with an interface built using Plotly Dash.
 (Note: the "data_pre_processing" folder is not required in the Dash app, but contains functions needed to fetch and prepare the data which is stored in the "data" folder).
 
-- The full app is presented in this article [published on Medium]().
+- The full app is presented in this article [published on Medium](https://medium.com/towards-artificial-intelligence/boost-your-job-search-with-nlp-a16c8c32a70d).
 - And deployed [here](https://nlpjobsearch.pythonanywhere.com)
 
 
